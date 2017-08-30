@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	unsortArray := []int{93,20,73,73,36,79,64,62,37,31}
+	unsortArray := []int{93, 20, 73, 73, 36, 79, 64, 62, 37, 31}
 	fmt.Println("\nInitial:", unsortArray)
 	fmt.Println("\nFinal sort array:", insertionSort(unsortArray))
 }
